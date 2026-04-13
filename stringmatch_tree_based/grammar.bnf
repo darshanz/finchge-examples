@@ -1,0 +1,3 @@
+# Grammar for lower case letters
+<string> ::= <letter> | <letter> <string>
+<letter> ::= _ | 'a'..'z'
