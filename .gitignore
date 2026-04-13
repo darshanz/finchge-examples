@@ -1,0 +1,47 @@
+# compiled Python files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+# logs
+**/logs/
+.pytest_cache/
+*.log
+
+site/
+# coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.nox/
+.tox/
+
+
+# virtual environments
+venv/
+.venv/
+
+# Python egg and build files
+pip-wheel-metadata/
+*.egg-info/
+*.egg/
+dist/
+build/
+.DS_Store
+
+.idea/
+.vscode/
+
+.mypy_cache/
+
+
+# Incomplete examples will be included later
+control
+feature_selection
+feature_selection_lexicase
+hpo
+logic
+ge_regressor
+vladislavleva4
+smoke_test_all.sh

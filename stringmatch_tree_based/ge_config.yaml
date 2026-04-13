@@ -1,0 +1,29 @@
+experiment:
+  random_seed: 42
+  num_generations: 200
+  verbose: false
+  cache_type: lru
+  cache_size: 128
+
+ge:
+  grammar_file: grammar.bnf
+  population_size: 500
+  codon_size: 127
+  max_wraps: 6
+  max_recursion_depth: 20
+  genome_length: 100
+  init_type: pi_grow
+  tournament_size: 3
+  init_max_depth: 17
+  max_tree_depth: 17
+  mutation_max_depth: 6
+  mutation_probability: 0.01
+  crossover_probability: 0.75
+  elite_size: 1
+
+
+parallel:
+  parallel_enabled: true
+  executor_type: "process"
+  max_workers: 8
+  batch_size: 100
